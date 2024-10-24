@@ -11,3 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: bohr-io/action@main
+      - nama: Setup MySQL
+        penggunaan: mirromutth/mysql-action@v1.1
+            
